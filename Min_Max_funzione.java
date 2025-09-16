@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class min_max{
+class Min_Max_funzione{
     public void mi_ma(int[] num){
 
         int min=num[0];
@@ -34,7 +34,8 @@ public class bo {
             num[i] = input.nextInt();
         }
 
-        min_max mm = new min_max();
+        Min_Max_funzione mm = new Min_Max_funzione();
         mm.mi_ma(num);
     }
 }
+
