@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-public class Es_1 {
+public class Mese_bisestile_Numero_primo {
 	public static void main(String[] argv) 	{
 		Scanner input = new Scanner(System.in);
 		System.out.println("Inserisi 1 per controllare se un anno è bisestile o 2 per controllare se un numero è primo o 3 per uscire> ");
@@ -50,10 +50,7 @@ public class Es_1 {
 			default : 
 			System.out.println("Inserisci solo 1 o 2 o 3");
 		}
-		
-			
-		
-			
 		input.close();
 	}
 }
+
