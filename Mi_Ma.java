@@ -23,7 +23,7 @@ class Min_Max_funzione{
         System.out.println("Il numero piu grande e: "+ max);
     }
 }
-public class bo {
+public class Mi_Ma {
     public static void main(String[] argv) {
         Scanner input = new Scanner(System.in);
         System.out.println("Inserisci quanti numeri vuoi inserire> ");
@@ -38,4 +38,5 @@ public class bo {
         mm.mi_ma(num);
     }
 }
+
 
